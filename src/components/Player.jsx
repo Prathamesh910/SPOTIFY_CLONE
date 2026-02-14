@@ -27,7 +27,7 @@ const Player = () => {
 
         <div className="flex items-center gap-5">
           <p>2.04</p>
-          <div className="w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer">
+          <div className="w-[60vw] max-w-125 bg-gray-300 rounded-full cursor-pointer">
             <hr className="h-1 border-none w-0 bg-green-800 rounded-full" />
           </div>
           <p>3.20</p>
