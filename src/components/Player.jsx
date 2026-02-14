@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {
-  const { track, seekBar, seekBg, playStatus, play, pause } =
+  const { track, seekBar, seekBg, playStatus, play, pause, time } =
     useContext(PlayerContext);
 
   return (
@@ -46,7 +46,9 @@ const Player = () => {
         </div>
 
         <div className="flex items-center gap-5">
-          <p>2.04</p>
+          <p>
+            {time.currentTime.minute}:{time.currentTime.second}
+          </p>
           <div
             ref={seekBg}
             className="w-[60vw] max-w-125 bg-gray-300 rounded-full cursor-pointer"
@@ -56,7 +58,9 @@ const Player = () => {
               className="h-1 border-none w-0 bg-green-800 rounded-full"
             />
           </div>
-          <p>3.20</p>
+          <p>
+            {time.totalTime.minute}:{time.totalTime.second}
+          </p>
         </div>
       </div>
       <div className="hidden lg:flex items-center gap-2 opacity-75">
