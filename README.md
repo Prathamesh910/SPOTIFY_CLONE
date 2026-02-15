@@ -1,4 +1,4 @@
-# 🎧 Spotify Clone 
+# 🎧 Spotify Clone
 
 A modern Spotify-inspired music player UI built using **React**, **Vite**, and **Context API**.  
 This project replicates core Spotify layout and playback features including sidebar navigation, album display, and an audio player.
@@ -22,7 +22,7 @@ This project replicates core Spotify layout and playback features including side
 - React (JSX)
 - Vite
 - JavaScript
-- Tailwind CSS 
+- Tailwind CSS
 - Context API
 
 ---
@@ -35,17 +35,18 @@ This project replicates core Spotify layout and playback features including side
 git clone https://github.com/your-username/spotify-clone.git
 cd spotify-clone
 ```
+
 ### 2. Install dependencies
 
 ```bash
 npm install
 ```
+
 ### 3. Run development server
 
 ```bash
 npm run dev
 ```
-
 
 ---
 
@@ -62,14 +63,17 @@ npm run dev
 - PlayerContext manages global audio state
 - Vite
 - audioRef controls the HTML audio element
-- Components consume context using useContext 
+- Components consume context using useContext
 - UI updates automatically based on current track
 
 ---
 
 ## 📸 Screenshots
 
-![Home Screen](./screenShots/Home_page.png)
-![Playlist Screen](./screenShots/Playlist_page.png)
+- Home Screen
+  ![Home Screen](./screenShots/Home_page.png)
+
+- Album Screen
+  ![Playlist Screen](./screenShots/Playlist_page.png)
 
 ---
