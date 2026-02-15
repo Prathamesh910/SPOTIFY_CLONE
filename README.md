@@ -77,3 +77,15 @@ npm run dev
   ![Playlist Screen](./screenShots/Playlist_page.png)
 
 ---
+
+## Github Link
+
+[Github Repo](https://github.com/Prathamesh910/SPOTIFY_CLONE)
+
+---
+
+## Live Project link
+
+[See live project](https://spotify-clone-vercel-roan.vercel.app)
+
+---
