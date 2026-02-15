@@ -1,16 +1,75 @@
-# React + Vite
+# 🎧 Spotify Clone 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Spotify-inspired music player UI built using **React**, **Vite**, and **Context API**.  
+This project replicates core Spotify layout and playback features including sidebar navigation, album display, and an audio player.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎵 Play / Pause music
+- ⏮️ Previous / Next track controls
+- 📀 Album & playlist display
+- 📱 Responsive layout
+- ⚡ Fast development with Vite
+- 🧠 Global state management using React Context API
+- 🔊 HTML5 audio integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (JSX)
+- Vite
+- JavaScript
+- Tailwind CSS 
+- Context API
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/spotify-clone.git
+cd spotify-clone
+```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+### 3. Run development server
+
+```bash
+npm run dev
+```
+
+
+---
+
+## 🎮 Usage
+
+- Click on songs/albums to play music
+- Use player controls to manage playback
+- Explore featured charts and playlists
+
+---
+
+## 🧠 How It Works
+
+- PlayerContext manages global audio state
+- Vite
+- audioRef controls the HTML audio element
+- Components consume context using useContext 
+- UI updates automatically based on current track
+
+---
+
+## 📸 Screenshots
+
+![Home Screen](./screenShots/Home_page.png)
+![Playlist Screen](./screenShots/Playlist_page.png)
+
+---
